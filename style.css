@@ -1,9 +1,8 @@
 :root {
-  --primary-color: hsl(246, 45%, 9%);
-  --secondary-color: #3a80cf;
-  --background: #0d1336;
+  --primary-color: #192249;
+  --secondary-color: #cbfdb7;
+  --background: #011d4d;
   --link: #5b8ecf;
-
 }
 
 * {
@@ -71,6 +70,7 @@ a {
   margin-top: 10px;
   padding: 200px 30px;
   background: rgba(255,255,255,0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .hero img {
@@ -239,3 +239,4 @@ footer {
 .chart-box canvas {
   max-height: 260px;
 }
+
