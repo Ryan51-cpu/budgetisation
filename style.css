@@ -21,7 +21,7 @@ a {
   text-decoration: none;
 }
 
-/* NAVBAR */
+/* nav */
 .nav {
   position: fixed;
   top: 0;
@@ -61,7 +61,7 @@ a {
   font-size: 18px;
 }
 
-/* HERO */
+/* hero */
 .hero {
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@ a {
   color: antiquewhite;
 }
 
-/* GLOW */
+/* glow */
 @keyframes glow {
   from {
     text-shadow: 0 0 6px red;
@@ -104,7 +104,7 @@ a {
   animation: glow 1.5s ease-in-out infinite alternate;
 }
 
-/* SECTIONS */
+/* sections general */
 .content-section {
   max-width: 1400px;
   margin: 250px auto;
@@ -145,7 +145,7 @@ a {
   margin-top: 10px;
 }
 
-
+/* just apply fade-in to any part and it will put the transition */
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -184,12 +184,12 @@ footer {
 }
 
 
-/* SMALL CHART VARIANT */
+/* small chart */
 .chart-box.small {
   margin-top: 40px;
 }
 
-/* STATS */
+/* statistique */
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -221,7 +221,7 @@ footer {
   color: antiquewhite;
 }
 
-/* FOOTER */
+/* fin */
 footer {
   margin-top: 120px;
   padding: 40px;
@@ -239,4 +239,5 @@ footer {
 .chart-box canvas {
   max-height: 260px;
 }
+
 
